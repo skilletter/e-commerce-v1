@@ -10,7 +10,7 @@ declare var $: any;
 export class SlideComponent implements OnInit {
 
   async ngAfterViewInit() {
-    await this.loadScript('assets/js/jquery.min.js');
+    await this.loadScript('assets/engine1/jquery.js');
     await this.loadScript('assets/engine1/wowslider.js');
     await this.loadScript('assets/engine1/script.js');
   }

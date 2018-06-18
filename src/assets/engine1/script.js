@@ -54,4 +54,34 @@ jQuery.extend(jQuery.easing,{easeOutBack2:function(f,g,e,j,i){var h=(g/=i)*g;var
 // Obfuscated by Javascript Obfuscator
 // http://javascript-source.com
 //***********************************************
-jQuery("#wowslider-container1").wowSlider({effect:"stack",prev:"",next:"",duration:20*100,delay:20*100,width:2000,height:584,autoPlay:true,autoPlayVideo:false,playPause:false,stopOnHover:false,loop:false,bullets:1,caption:true,captionEffect:"stack",controls:true,controlsThumb:false,responsive:2,fullScreen:false,gestures:2,onBeforeStep:0,images:0});
+
+// effect =( basic , basic_linear , blast , blinds , blur , book , brick , bubbles
+//  , carousel , carousel_basic , collage , cube , cube_over , domino , dribbles
+//  , fade , flip , fly , glass_parallax , kenburns , lines , louvers , page
+//  , parallax , photo , rotate , seven , shift , slices , squares , stack , stack_vertical , turn , tv )
+
+
+jQuery("#ws_webisme").wowSlider({
+	effect: "slices",
+	prev: "",
+	next: "",
+	duration: 20 * 100, 
+	delay: 20 * 100,
+	width: 2000,
+	height: 732,
+	autoPlay: true,
+	autoPlayVideo: false,
+	playPause: false,
+	stopOnHover: false,
+	loop: false,
+	bullets: 1,
+	caption: true,
+	captionEffect: "slices",
+	controls: true,
+	controlsThumb: false,
+	responsive: 2,
+	fullScreen: false,
+	gestures: 2,
+	onBeforeStep: 0,
+	images: 0
+});
