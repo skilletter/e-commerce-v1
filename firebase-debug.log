@@ -1,0 +1,26 @@
+[debug] [2018-06-26T09:20:59.940Z] ----------------------------------------------------------------------
+[debug] [2018-06-26T09:20:59.944Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CW01\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-06-26T09:20:59.944Z] CLI Version:   3.19.0
+[debug] [2018-06-26T09:20:59.944Z] Platform:      win32
+[debug] [2018-06-26T09:20:59.944Z] Node Version:  v8.10.0
+[debug] [2018-06-26T09:20:59.945Z] Time:          Tue Jun 26 2018 16:20:59 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-06-26T09:20:59.945Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-26T09:20:59.963Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-26T09:20:59.963Z] > authorizing via signed-in user
+[debug] [2018-06-26T09:20:59.966Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pizza-cw  
+  
+ Tue Jun 26 2018 16:20:59 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-06-26T09:21:01.107Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-26T09:21:01.108Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pizza-cw/tokens  
+  
+ Tue Jun 26 2018 16:21:01 GMT+0700 (SE Asia Standard Time)
+[debug] [2018-06-26T09:21:01.976Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pizza-cw'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-06-26T09:21:08.798Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/pizza-cw/uploads/-LFvOMWtP8w3Mnh5qXzg?fileCount=185&message=  
+  
+ Tue Jun 26 2018 16:21:08 GMT+0700 (SE Asia Standard Time)
