@@ -8,6 +8,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './page/header/header.component';
 import { FooterComponent } from './page/footer/footer.component';
 import { SlideComponent } from './page/slide/slide.component';
+import { AboutComponent } from './page/about/about.component';
+import { BannerComponent } from './page/banner/banner.component';
+import { NavigatorComponent } from './page/navigator/navigator.component';
+import { NewComponent } from './page/new/new.component';
+import { NewDetailComponent } from './page/new-detail/new-detail.component';
+import { ServiceComponent } from './page/service/service.component';
+import { ContactComponent } from './page/contact/contact.component';
+import { ProductComponent } from './page/product/product.component';
+import { CategoriesComponent } from './page/categories/categories.component';
+import { ProductDetailComponent } from './page/product-detail/product-detail.component';
+import { MagizoomComponent } from './page/magizoom/magizoom.component';
 
 
 @NgModule({
@@ -16,7 +27,18 @@ import { SlideComponent } from './page/slide/slide.component';
     IndexComponent,
     HeaderComponent,
     FooterComponent,
-    SlideComponent
+    SlideComponent,
+    AboutComponent,
+    BannerComponent,
+    NavigatorComponent,
+    NewComponent,
+    NewDetailComponent,
+    ServiceComponent,
+    ContactComponent,
+    ProductComponent,
+    CategoriesComponent,
+    ProductDetailComponent,
+    MagizoomComponent
   ],
   imports: [
     BrowserModule,

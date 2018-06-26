@@ -1,0 +1,22 @@
+.divider-lg::after {
+    content: '';
+    display: inline-block;
+    width: 130px;
+    height: 3px;
+    background-color: #00960b;
+    margin-bottom: 0px;
+}
+hr {
+    border: solid 0.6px #000;
+    margin: 15px 0 15px;
+  }
+  .funtion-margin5{
+    margin: 0 0 5px 0;
+  }
+  .funtion-margin10{
+    margin: 0 0 10px 0;
+  }
+  .funtion-margin15{
+    margin: 15px 0 10px 0;
+  
+  }

@@ -1,7 +1,36 @@
+.funtion-border-left{
+  border-left: 1px solid #ddd;  padding: 8px 8px;
+}
+.funtion-border-right{
+  border-left: 1px solid #ddd; border-right: 1px solid #ddd; padding: 8px 8px;
+}
+.funtion-border-right2{
+  border-right: 1px solid #ddd; padding: 8px 8px;
+}
+
+.funtion-border-right3{
+  border-right: 1px solid #ddd; padding: 0px 0px;
+}
+
+
+.manage-top-left {
+  float: left;
+}
+nav.navbar.bootsnav[_ngcontent-c2] ul.nav[_ngcontent-c2] > li[_ngcontent-c2] > a[_ngcontent-c2] {
+  padding: 15px 15px;
+  margin: 15px 0px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+
+
 .section01 {
-  background: #f5f5f5;
-  color: #555555;
-  padding: 10px 0px;
+  // background: #000;
+  color: #fff;
+  padding: 5px 0px;
+  border-bottom: 1px solid #fff;
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
@@ -9,7 +38,7 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 nav.navbar .navbar-brand img.logo {
-  width: 170px;
+  width: 160px;
 }
 
 nav.navbar .navbar-brand {
@@ -23,7 +52,7 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 .top-search {
-  background-color: #ef2c00;
+  background-color: #000;
   padding: 10px 0;
   display: none;
 }
@@ -56,7 +85,7 @@ nav.navbar ul.nav>li>a:hover,
 nav.navbar ul.nav>li.active>a:hover,
 nav.navbar ul.nav li.active>a,
 nav.navbar li.dropdown ul.dropdown-menu>li a:hover {
-  color: #ef2c00;
+  color: #000;
 }
 
 ul.cart-list>li.total>.btn:hover,
@@ -76,11 +105,11 @@ nav.navbar.bootsnav .navbar-toggle {
 }
 
 nav.navbar li.dropdown ul.dropdown-menu {
-  border-top-color: #ef2c00 !important;
+  border-top-color: #000 !important;
 }
 
 .red {
-  color: #ef2c00;
+  color: #f00;
 }
 
 .attr-nav>ul>li>a {
@@ -88,13 +117,13 @@ nav.navbar li.dropdown ul.dropdown-menu {
 }
 
 a {
-  color: #555555;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #ef2c00;
+  color: #f00;
   text-decoration: none;
 }
 
@@ -102,8 +131,8 @@ ul.cart-list>li.total>.btn,
 .attr-nav>ul>li>a span.badge,
 nav.navbar .share ul>li>a:hover,
 nav.navbar .share ul>li>a:focus {
-  background-color: #ef2c00;
-  border-color: #ef2c00;
+  background-color: #000;
+  border-color: #000;
 }
 
 .d-box-01 {
@@ -115,8 +144,8 @@ nav.navbar .share ul>li>a:focus {
   font-weight: 300;
   line-height: 1.42857143;
   color: #ffffff;
-  background-color: #ef2c00;
-  border: 1px solid #ef2c00;
+  background-color: #000;
+  border: 1px solid #000;
   border-radius: 0px;
   -webkit-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
@@ -160,7 +189,7 @@ nav.navbar .share ul>li>a:focus {
 /* Effect 2: Brackets */
 
 .cl-effect-1 a:hover {
-  background: #ef2c00;
+  background: #000;
   color: #fff !important;
 }
 
@@ -211,7 +240,7 @@ nav.navbar .share ul>li>a:focus {
   left: 0;
   width: 100%;
   height: 4px;
-  background: #e82900;
+  background: #000;
   content: '';
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -242,7 +271,7 @@ nav.navbar .share ul>li>a:focus {
   left: 0;
   width: 100%;
   height: 1px;
-  background: #ef2c00;
+  background: #000;
   content: '';
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -275,7 +304,7 @@ nav.navbar .share ul>li>a:focus {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #ef2c00;
+  background: #000;
   content: '';
   -webkit-transition: top 0.3s;
   -moz-transition: top 0.3s;
@@ -288,7 +317,7 @@ nav.navbar .share ul>li>a:focus {
   left: 0;
   width: 2px;
   height: 2px;
-  background: #ef2c00;
+  background: #000;
   content: '';
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
@@ -308,7 +337,7 @@ nav.navbar .share ul>li>a:focus {
 
 .cl-effect-6 a {
   padding: 12px 10px 10px;
-  color: #ef2c00;
+  color: #000;
   text-shadow: none;
   font-weight: 700;
 }
@@ -320,7 +349,7 @@ nav.navbar .share ul>li>a:focus {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #ef2c00;
+  background: #000;
   content: '';
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -373,7 +402,7 @@ nav.navbar .share ul>li>a:focus {
 }
 
 .cl-effect-7 a::after {
-  border-color: #ef2c00;
+  border-color: #000;
   opacity: 0;
   -webkit-transform: translateY(-7px) translateX(6px);
   -moz-transform: translateY(-7px) translateX(6px);
@@ -405,7 +434,7 @@ nav.navbar .share ul>li>a:focus {
   left: 50%;
   width: 100px;
   height: 100px;
-  border: 2px solid #ef2c00;
+  border: 2px solid #000;
   border-radius: 50%;
   content: '';
   opacity: 0;
@@ -463,13 +492,13 @@ nav.navbar .share ul>li>a:focus {
 
 .cl-effect-9 a:hover::before,
 .cl-effect-9 a:focus::before {
-  color: #ef2c00;
-  text-shadow: 10px 0 #ef2c00, -10px 0 #ef2c00;
+  color: #000;
+  text-shadow: 10px 0 #000, -10px 0 #000;
 }
 
 .cl-effect-9 a:hover,
 .cl-effect-9 a:focus {
-  color: #ef2c00;
+  color: #000;
 }
 
 /* Effect 10: border switch */
@@ -484,7 +513,7 @@ nav.navbar .share ul>li>a:focus {
   position: absolute;
   width: 45px;
   height: 2px;
-  background: #ef2c00;
+  background: #000;
   content: '';
   opacity: 0.2;
   -webkit-transition: all 0.3s;
@@ -556,7 +585,7 @@ nav.navbar .share ul>li>a:focus {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #ef2c00;
+  background: #000;
   content: '';
   opacity: 0;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -583,7 +612,7 @@ nav.navbar .share ul>li>a:focus {
 
 .cl-effect-11 a:hover,
 .cl-effect-11 a:focus {
-  color: #ef2c00;
+  color: #000;
 }
 
 .cl-effect-11 a:hover::before,
@@ -600,7 +629,7 @@ nav.navbar .share ul>li>a:focus {
 
 @media(max-width:768px) {
   nav.navbar.bootsnav.navbar-mobile .navbar-collapse {
-    background: #ef2c00;
+    background: #000;
     color: #ffffff !important;
   }
   nav.navbar.bootsnav ul.nav>li>a {

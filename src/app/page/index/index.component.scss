@@ -1,1 +1,265 @@
 
+
+.newfuntion1{
+    padding: 10px;
+    border: 2px solid white;
+}
+
+
+.prods-cnt{
+    width: 720px;
+    height:auto;
+    min-height: 400px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fafafa;
+    border: #ccc 1px dotted;
+    overflow: auto; 
+  }
+  
+  /* Grid Style */
+  .prod-box{
+    width: 100%;
+    height: auto;
+    /*  padding: 10px; */
+    margin: 10px 3px;
+    height: 390px;
+    background-color: #fff;
+    float: left;
+    overflow: hidden;
+  }
+  
+  .prod-box:hover{
+    padding-top: 0px; 
+  }
+  
+  .prod-box img:first-child{
+    /*  width: 200px;*/
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .prod-box-list img:first-child{
+  /*  width: 190px;
+  float: left;*/
+  }
+  .prod-box h3 a{
+    text-decoration: none;
+    /*width:140px;*/
+    float: left;
+    margin: 5px 0;
+    color:#888;
+  /*  font: italic normal 14px georgia;
+  font-style: italic;*/
+  }
+  .prod-box p{ 
+    /*display: none;*/
+    /*border-bottom: solid 1px #eee;*/
+    /*height: 25px;*/
+    /*  overflow: hidden;*/
+  }
+  
+  .prod-box .old{
+    margin-right: 20px;
+    color: #be0000 !important;
+    text-decoration: line-through;
+  }
+  .prod-box .price{
+    width: 60px;
+    display: inline; 
+    float: left;
+    font: italic 13px georgia;
+    color: #181818;
+  }
+  .prod-box .buy-ico{
+    // border-radius: 20px;
+    // width: 35px; height: 35px;
+    // float: right;
+    // margin: 5px;
+    // cursor: pointer;
+    // background: #039fd3 url(../img/bag-ico.png) 50%  no-repeat;
+    // -webkit-transition:background-color 0.3s ease-in;  
+    // -moz-transition:background-color 0.3s ease-in;  
+    // -o-transition:background-color 0.3s ease-in;  
+    // transition:background-color 0.3s ease-in;
+  }
+  .prod-box .buy-ico:hover{
+    background-color: #ff9800;
+  }
+  
+  /* List View Style */
+  .prod-box-list{
+    /*  height: 215px;*/
+    width: 95.9%;
+    margin: 10px;
+    padding: 0px 0px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .prod-box-list h3 a{
+    text-decoration: none;
+    width:320px;
+    float: left;
+    padding:0;
+    margin: 0 10px;
+    color:#3c2e25;
+    font: italic normal 22px georgia;
+  }
+  .prod-box-list p{
+  /*  color: #888;
+    width: 500px;
+    float: left;
+  
+    margin: 20px 10px 10px 10px;
+    /*font: italic 13px  georgia;*/
+    line-height: 20px;
+  }
+  .prod-box-list .buy-ico{
+    // border-radius: 5px;
+    // width: 85px; 
+    // height: 20px;
+    // color: #fff;
+    // padding: 5px 5px 5px 30px;
+    // font:italic 12px georgia;
+    // float: right;
+    // margin: 5px;
+    // cursor: pointer;
+    // background: #039fd3 url(../img/bag-ico.png) 5% 50%  no-repeat;
+    // -webkit-transition:background-color 0.3s ease-in;  
+    // -moz-transition:background-color 0.3s ease-in;  
+    // -o-transition:background-color 0.3s ease-in;  
+    // transition:background-color 0.3s ease-in;
+  }
+  .prod-box-list .buy-ico:before{
+    content: "More Details";  
+    line-height: 22px;  
+  }
+  .prod-box-list .buy-ico:hover{  
+    background-color: #ff9800;
+  }
+  
+  .prod-box-list .old{  
+    color: #be0000 !important; 
+    float: right; 
+    font-style: 18px;
+    text-decoration: line-through;
+  }
+  .prod-box-list .price{
+    margin-right: 10px;
+    display: block; 
+    font: italic 20px georgia;
+    color: #181818;
+    margin:7px;
+  }
+  .prod-box-list .price-cnt{ 
+    width: 95px;
+    height: auto;
+    float: right;
+    text-align: right;
+  }
+  
+  
+  /* Css Shadow Effect for the prod-box and prod-box-list div */
+  .shadow{
+    // -webkit-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.31);
+    // -moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.31);
+    // box-shadow:         0px 0px 4px rgba(50, 50, 50, 0.31);
+    // -webkit-transition: all .2s ease-in-out;
+    // -o-transition: all .2s ease-in-out;
+    // transition: all .2s ease-in-out;
+  }
+  
+  
+  .shadow:hover {
+    -webkit-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.31);
+    -moz-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.31);
+    /*  box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.6);*/
+  }
+  
+
+.btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-default1 {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+.btn-default1:hover {
+color: #333;
+background-color: #e6e6e6;
+border-color: #adadad;
+}
+
+hr {
+  border: solid 0.6px #000;
+  margin: 15px 0 15px;
+}
+.funtion-margin5{
+  margin: 0 0 5px 0;
+}
+.funtion-margin10{
+  margin: 0 0 10px 0;
+}
+.funtion-margin15{
+  margin: 15px 0 10px 0;
+
+}
+
+.image_item{
+  position : relative;
+  width : auto;
+  margin :auto;
+}
+
+$color_1: black;
+$background_color_1: #000;
+
+.image_item {
+	text-align: center;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	background-color: $background_color_1;
+
+	i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		border-radius: 50%;
+		font-size: 34px;
+		color: $color_1;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		background: #ffffff;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+		-webkit-transform: translate(-50%, -50%) scale(0);
+		transform: translate(-50%, -50%) scale(0);
+		transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+	}
+	a {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: absolute;
+	}
+	&:hover {
+		img {
+			opacity: 0.3;
+			// -webkit-filter: grayscale(100%);
+			// filter: grayscale(100%);
+		}
+		i {
+			-webkit-transform: translate(-50%, -50%) scale(1);
+			transform: translate(-50%, -50%) scale(1);
+			transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		}
+	}
+}

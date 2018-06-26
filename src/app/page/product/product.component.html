@@ -1,0 +1,48 @@
+<app-header></app-header>
+<app-banner></app-banner>
+<app-navigator></app-navigator>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row-full"><br>
+					<h2 class="f-400 back text-center funtion-margin5">PRODUCT</h2>
+					<div class="divider-lg text-center"></div><br>
+					<p class="f-500 font15 back333 text-justify marginbuttom30 text-uppercase">PAN PIZZA RECIPE HAS DEVELOPED TO BE MORE DELICIOUS ! OUR NEW CRUST THAT HAS GARLIC BUTTER, OREGANO AND PARMESAN CHEESE.
+					</p>
+					<div class="col-sm-3">
+						<div class="row">
+							<app-categories></app-categories>
+						</div>
+					</div>
+					<div class="col-sm-9">
+						<div class="col-sm-12">
+							<div class="row-full2">
+								<div class="col-sm-6" *ngFor="let item of list; let i = index;">
+									<div class="row-full2">
+										<div class="prod-cnt prod-box shadow">
+											<a href="product-detail">
+											<img src="assets/images/pic4.png" class="img-responsive">
+											<h5 class="back f-500 text-center funtion-margin10 font20">VEGGIE PIZZA</h5>
+											<p class="back555 f-400 text-center marginbuttom5"> Happiness for vegetarians, fully loaded toppings of capsicum, tomato, mushroom, omion and pineapple.<br>
+											</p>
+											<p class="red f-400 text-center font22 marginbuttom5"><s class="font16 back">$24.00</s>&nbsp; $19.00 </p>
+											<div class="text-center font18  marginbuttom20 "><a href="" class="back"> <i class="fas fa-shopping-basket font25 "></i> Add To Cart</a></div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div> 
+	</div><br>
+</section>
+<a href="#" class="scrollToTop">Scroll To Top</a>
+<app-footer></app-footer>
+

@@ -19,19 +19,28 @@
     "prefix": "app",
     "styles": [
       "../node_modules/bootstrap/dist/css/bootstrap.css",
-      "assets/font-awesome-4.7.0/css/font-awesome.css",
       "assets/css/animate.css",
       "assets/css/bootsnav.css",
       "assets/css/style.css",
       "assets/css/d-text.css",
       "assets/engine1/style.css",
+      "assets/css/number.css",
+      "assets/css/magiczoomplus.css",
+      "assets/css/choose-size-color.css",
       "assets/css/owl.carousel.css",
+      "assets/css/dos-bt.css",
+      "assets/highslide/highslide.css",
       "styles.scss"
     ],
     "scripts": [
       "../node_modules/jquery/dist/jquery.min.js",
       "assets/js/bootstrap.min.js",
-      "assets/js/bootsnav.js"
+      "assets/js/bootsnav.js",
+      "assets/js/active-nav.js",
+      "assets/js/owl.carousel.js",
+      "assets/js/SmoothScroll.min.js",
+      "assets/js/dos-bt.js"
+
     ],
     "environmentSource": "environments/environment.ts",
     "environments": {

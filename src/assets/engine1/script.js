@@ -62,13 +62,13 @@ jQuery.extend(jQuery.easing,{easeOutBack2:function(f,g,e,j,i){var h=(g/=i)*g;var
 
 
 jQuery("#ws_webisme").wowSlider({
-	effect: "slices",
+	effect: "shift",
 	prev: "",
 	next: "",
 	duration: 20 * 100, 
 	delay: 20 * 100,
 	width: 2000,
-	height: 732,
+	height: 737,
 	autoPlay: true,
 	autoPlayVideo: false,
 	playPause: false,
@@ -76,7 +76,7 @@ jQuery("#ws_webisme").wowSlider({
 	loop: false,
 	bullets: 1,
 	caption: true,
-	captionEffect: "slices",
+	captionEffect: "shift",
 	controls: true,
 	controlsThumb: false,
 	responsive: 2,

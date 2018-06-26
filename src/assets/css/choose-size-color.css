@@ -1,0 +1,79 @@
+/*ไซต์*/
+.custom-radios div {
+  display: inline-block;
+}
+.custom-radios input[type="radio"] {
+  display: none;
+}
+.custom-radios input[type="radio"] + label {
+  color: #333;
+
+  font-size: 14px;
+}
+.custom-radios input[type="radio"] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 0px;
+}
+.custom-radios input[type="radio"] + label span img {
+  opacity: 0;
+  transition: all .3s ease;
+  padding: 9px 0px;
+}
+.custom-radios input[type="radio"]#color-1 + label span {
+  background-color: #000;
+}
+.custom-radios input[type="radio"]#color-2 + label span {
+  background-color: #874514;
+}
+.custom-radios input[type="radio"]#color-3 + label span {
+  background-color: #594642;
+}
+.custom-radios input[type="radio"]#color-4 + label span {
+  background-color: #f1c40f;
+}
+.custom-radios input[type="radio"]:checked + label span img {
+  opacity: 1;
+}
+
+
+
+/* ไซต์*/
+.custom-radio1 {
+  font-size: 16px;
+  list-style-type: none;
+}
+.custom-radio1 li {
+  float: left;
+  margin-right: 0.5em;
+}
+.custom-radio1 label {
+  margin-top: 10px;
+  padding: 6px 15px;
+  color: #333;
+  border: solid 2px #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.custom-radio1 input[type="radio"] {
+  display: none;
+}
+.custom-radio1 input[type="radio"]:checked + label {
+  border-color: #1e6d23;
+  color: #1e6d23;
+}
+/*ไซต์*/

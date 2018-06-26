@@ -1,0 +1,37 @@
+<app-header></app-header>
+<app-banner></app-banner>
+<app-navigator></app-navigator>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="row-full"><br>
+					<h2 class="f-400 back text-center funtion-margin5">NEW & EVENTS</h2>
+					<div class="divider-lg text-center"></div><br>
+					<div class="col-sm-4" *ngFor="let item of list; let i = index;">
+						<div class="image_item">
+							<img src="assets/images/pic3.png" class="img-responsive">
+							<a href="./new-detail"><i class="fa fa-search" aria-hidden="true"></i></a>
+						</div>
+						<h4 class="back f-500 text-uppercase funtion-margin15"> Cooking variations</h4>
+						<hr>
+						<div class="font16">
+							<i class="far fa-calendar-alt"></i><span> 09/03/2018</span>&nbsp;&nbsp;
+							<i class="far fa-clock"></i><span> 12:00 AM</span>
+						</div>
+						<p class="back333 f-400 margintop10">The point of using Lorem Ipsum is that it has a more normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+						</p>
+						<a href="./new-detail" class="btn-default1 btn-md btn font16 text-uppercase" style="border-radius: 0px; padding: 6px 30px;"> read more</a>
+						<span class="pull-right"><i class="fas fa-bullseye "></i> ผู้ชม 999 ครั้ง</span>
+						<div class="clearfix"></div>
+						<br>
+					</div>
+					
+				</div>
+			</div>
+		</div> 
+	</div>
+	<br>
+</section>
+<a href="#" class="scrollToTop">Scroll To Top</a>
+<app-footer></app-footer>

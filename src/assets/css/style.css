@@ -19,8 +19,11 @@ Typography
     overflow-x: hidden;
 }*/
 
+
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     position: relative;
 	font-size:14px;
 	line-height:24px;
@@ -44,7 +47,7 @@ a:hover{
 }
 
 a:hover{
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -615,7 +618,7 @@ Navbar Adjusment
 =========================== */
 /* Navbar Atribute ------*/
 .attr-nav > ul > li > a{
-    padding: 28px 15px;
+    padding: 28px 5px;
 }
 
 ul.cart-list > li.total > .btn{
